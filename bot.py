@@ -60,7 +60,7 @@ async def init_db(app):
 # UI
 # =====================
 HOME_CAPTION = (
-    "👳🏾‍♂️ **Welcome to IndiaMarket**\n\n"
+    "💚 **Welcome to Emerald Haze Market**\n\n"
     "Your trusted marketplace.\n"
     "Fast • Discreet • Reliable\n\n"
     "Please choose an option below."
@@ -85,7 +85,7 @@ def back():
 # =====================
 def format_operator_card(r) -> str:
     area = r["loc"].strip() if r["loc"] else "Not specified"
-    status_icon = "🟢" if r["online"] else "🔴"
+    status_icon = "💚" if r["online"] else "🔴"
     status_text = "Online" if r["online"] else "Offline"
     delivery_text = "Available" if r["delivery"] else "Not available"
 
