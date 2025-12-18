@@ -61,8 +61,8 @@ async def init_db(app):
 # =====================
 HOME_CAPTION = (
     "💚 **Welcome to Emerald Haze Market** 💚\n\n"
-    "🌿Your trusted marketplace.\n🌿"
-    "💚Fast • Discreet • Reliable\n\n💚"
+    "Your trusted marketplace.\n"
+    "Fast • Discreet • Reliable\n\n"
     "🌿Please choose an option below.🌿"
 )
 
@@ -344,4 +344,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
